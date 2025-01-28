@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nodejs-app:1.0.0-41
+      app: nodejs-app:5
   template:
     metadata:
       labels:
-        app: nodejs-app:1.0.0-41
+        app: nodejs-app:5
     spec:
       containers:
-        - name: nodejs-app:1.0.0-41
-          image: khaoulaabdessamad/nodejs-app:1.0.0-41
+        - name: nodejs-app:5
+          image: khaoulaabdessamad/nodejs-app:5
           resources:
             limits:
               cpu: "1"
