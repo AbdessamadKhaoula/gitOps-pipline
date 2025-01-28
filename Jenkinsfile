@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-          APP_NAME = "nodejs-app"
+          APP_NAME = "reddit-clone-app"
     }
     stages {
          stage("Cleanup Workspace") {
