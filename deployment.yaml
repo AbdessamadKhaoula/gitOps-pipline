@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: AbdessamadKhaoula/nodejs-app:1.0.0-4
+          image: khaoulaabdessamad/nodejs-app:1.0.0-4
           resources:
             limits:
               cpu: "1"
