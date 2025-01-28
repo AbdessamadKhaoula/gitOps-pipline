@@ -13,7 +13,7 @@ spec:
         app: reddit-clone-app
     spec:
       containers:
-        - name: nodejs-app
+        - name: reddit-clone-app
           image: reddit-clone-app:1.0.0-2
           resources:
             limits:
