@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: reddit-clone-app
+      app: reddit-clone-app:1.0.0-45
   template:
     metadata:
       labels:
-        app: reddit-clone-app
+        app: reddit-clone-app:1.0.0-45
     spec:
       containers:
         - name: nodejs-app
