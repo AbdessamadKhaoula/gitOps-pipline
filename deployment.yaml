@@ -13,8 +13,8 @@ spec:
         app: reddit-clone-app
     spec:
       containers:
-        - name: reddit-clone-app
-          image: AbdessamadKhaoula/reddit-clone-pipeline:1.0.0-4
+        - name: nodejs-app
+          image: AbdessamadKhaoula/nodejs-app:1.0.0-4
           resources:
             limits:
               cpu: "1"
