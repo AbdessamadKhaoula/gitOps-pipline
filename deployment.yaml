@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: khaoulaabdessamad/nodejs-app:1.0.0-1
+          image: reddit-clone-app:1.0.0-2
           resources:
             limits:
               cpu: "1"
